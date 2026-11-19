@@ -6,6 +6,12 @@
     <title>Placeholder Index</title>
 </head>
 <body>
-    
+    <h1>Home</h1>
+
+    <a href="{{ url_for('signIn') }}" class="card-link">Sign in</a>
+    <a href="{{ url_for('artists') }}" class="card-link">Artists</a>
+    <a href="{{ url_for('search') }}" class="card-link">Search</a>
+    <a href="{{ url_for('recommendation') }}" class="card-link">Recommendation</a>
+    <a href="{{ url_for('playlist') }}" class="card-link">Playlist</a>
 </body>
 </html>
